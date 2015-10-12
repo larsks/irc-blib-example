@@ -1,0 +1,5 @@
+- hosts: localhost
+  connection: local
+  tasks:
+    - apt: name=git state=latest
+
